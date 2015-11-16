@@ -5,7 +5,7 @@
   "main": "n/a",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d public"
+    "deploy": "babel-node --eval \"require('./utils/deploy')().catch(err => console.log(err.stack))\""
   },
   "keywords": [
     "gatsby"
@@ -26,6 +26,6 @@
     "underscore.string": "^3.1.1"
   },
   "devDependencies": {
-    "gh-pages": "^0.5.0"
+    "git-repository": "^0.1.1"
   }
 }
