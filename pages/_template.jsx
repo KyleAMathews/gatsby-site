@@ -82,7 +82,7 @@ module.exports = React.createClass({
                     textDecoration: 'none',
                     marginLeft: rhythm(1/2)
                   }}
-                  href="https://github.com/gatsbyjs/gatsby"
+                  href="https://github.com/dannyphillips/gatsby-site"
                 >
                   Github
                 </a>

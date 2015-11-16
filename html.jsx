@@ -1,8 +1,7 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
 
-import typography from './utils/typography';
-const { TypographyStyle } = typography;
+import {TypographyStyle} from './utils/typography';
 
 module.exports = React.createClass({
   getDefaultProps: function() {
