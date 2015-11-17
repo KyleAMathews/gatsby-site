@@ -10,7 +10,7 @@ const remote = {
 export default task(async function deploy() {
   // Initialize a new Git repository inside the `/public` folder
   // if it doesn't exist yet
-  const repo = await GitRepo.open('public', { init: true });
+  const repo = await GitRepo.open('../public', { init: true });
   await repo.setRemote(remote.name, remote.url);
 
   // Fetch the remote repository if it exists

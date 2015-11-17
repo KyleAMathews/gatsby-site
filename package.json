@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploys": "gh-pages -d public",
+    "publish": "babel-node --eval \"require('./utils/publish')\"",
     "deploy": "babel-node --eval \"require('./utils/deploy')().catch(err => console.log(err.stack))\""
   },
   "keywords": [
