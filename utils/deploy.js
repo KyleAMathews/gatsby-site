@@ -2,7 +2,7 @@ import GitRepo from 'git-repository';
 import task from './task';
 
 const remote = {
-  name: 'github',
+  name: 'origin',
   url: 'https://github.com/dannyphillips/gatsby-site.git',
   branch: 'gh-pages',
 };
