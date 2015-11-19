@@ -12,7 +12,7 @@
   ],
   "gh-pages-deploy": {
     "staticpath": "public",
-    "cname": "dannyphillips.me"
+    "noprompt": false
   },
   "author": "Danny Phillips <danny.phillips8@gmail.com>",
   "license": "MIT",
