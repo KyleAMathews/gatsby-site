@@ -16,6 +16,7 @@ module.exports = React.createClass({
     if (this.props.title) {
       title = this.props.title;
     }
+    debugger;
     if ((typeof __GH_PAGES__ !== "undefined" && __GH_PAGES__ !== null) && __GH_PAGES__) {
       urlPrefix = this.props.config.ghPagesURLPrefix;
     } else {
