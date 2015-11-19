@@ -5,11 +5,9 @@ const ReactClock = React.createClass({
 
   render() {
     return (
-      <ReactCountdownClock
-         seconds={60}
-         color="#275add"
-         alpha={0.9}
-         size={300}/>
+      <div>
+      
+      </div>
     );
   },
 });
