@@ -1,5 +1,5 @@
 ---
-title: This 
+title: Examples
 ---
 
 A real documentation site would have live examples here. But since this

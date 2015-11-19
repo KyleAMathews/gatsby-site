@@ -40,7 +40,7 @@ module.exports = React.createClass({
         <div
           style={{
             background: headerColors.bg,
-            color: headerColors.fg,
+            color: "#fff",
             marginBottom: rhythm(1.5)
           }}
         >
@@ -67,7 +67,7 @@ module.exports = React.createClass({
                   to={`${urlPrefix}/`}
                   style={{
                     textDecoration: 'none',
-                    color: headerColors.fg,
+                    color: "#fff",
                     fontSize: fontSizeToPx("25.5px").fontSize
                   }}
                 >
@@ -78,7 +78,7 @@ module.exports = React.createClass({
                 <a
                   style={{
                     float: 'right',
-                    color: headerColors.fg,
+                    color: "#fff",
                     textDecoration: 'none',
                     marginLeft: rhythm(1/2)
                   }}
@@ -90,7 +90,7 @@ module.exports = React.createClass({
                   to={`${urlPrefix}/examples/`}
                   style={{
                     background: examplesActive ? activeHeaderColors.bg : headerColors.bg,
-                    color: examplesActive ? activeHeaderColors.fg : headerColors.fg,
+                    color: "#fff",
                     float: 'right',
                     textDecoration: 'none',
                     paddingLeft: rhythm(1/2),
@@ -107,7 +107,7 @@ module.exports = React.createClass({
                   to={`${urlPrefix}/docs/`}
                   style={{
                     background: docsActive ? activeHeaderColors.bg : headerColors.bg,
-                    color: docsActive ? activeHeaderColors.fg : headerColors.fg,
+                    color: "#fff",
                     float: 'right',
                     textDecoration: 'none',
                     paddingLeft: rhythm(1/2),
