@@ -1,6 +1,5 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
-require('dotenv').load();
 
 import {TypographyStyle} from './utils/typography';
 
