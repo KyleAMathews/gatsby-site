@@ -24,7 +24,6 @@ module.exports = React.createClass({
     activeHeaderColors = colorPairsPicker(darker, {
       contrast: 7
     });
-    debugger;
     if (__GH_PAGES__) {
       urlPrefix = this.props.config.ghPagesURLPrefix;
     } else {
