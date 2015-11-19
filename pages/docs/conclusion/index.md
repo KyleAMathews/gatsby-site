@@ -3,6 +3,4 @@ title: Conclusion
 order: 10
 ---
 
-You're probably getting pretty good at whatever thing we're explaining
-here so good job, carry on, here's some helpful links, and hope you have
-a great life.
+This is the end of my demo. Thanks for checking it out! I hope you found this helpful and are inspired to make a **GatsbyJS** site of your own.

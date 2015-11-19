@@ -3,6 +3,11 @@ title: Introduction
 order: 0
 ---
 
-**AlphabetJS** is the latest and greatest Javascript Framework. It's
-amazing and wonderful and you'll probably love it more than all of the
-other ones.
+This is my first post. It is a placeholder that shows how GatsbyJS can interpret markdown and render it to the page.
+
+**Setup**
+```javascript
+npm install -g gatsby
+gatsby new gatsby-site
+cd gatsby-site
+```
