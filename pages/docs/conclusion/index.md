@@ -1,6 +1,6 @@
 ---
 title: Conclusion
-order: 5
+order: 10
 ---
 
 You're probably getting pretty good at whatever thing we're explaining
