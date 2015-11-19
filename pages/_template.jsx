@@ -5,7 +5,6 @@ import colorPairsPicker from 'color-pairs-picker';
 import chroma from 'chroma-js';
 import includes from 'underscore.string/include';
 import { link } from 'gatsby-helpers';
-
 import typography from 'utils/typography';
 
 // Style code

@@ -35,7 +35,7 @@ module.exports = React.createClass({
           <style dangerouslySetInnerHTML={{__html:
             `
               a {
-                color: #f2edf4;
+                color: #000000;
               }
               pre {
                 background: whitesmoke;
